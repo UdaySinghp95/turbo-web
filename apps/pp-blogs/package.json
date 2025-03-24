@@ -12,6 +12,7 @@
       "tsx": "^4.19.0"
   },
   "dependencies": {
-    "@shared": "workspace:*"
+    "@shared": "workspace:*",
+    "next": "14.2.3"
   }
 }
