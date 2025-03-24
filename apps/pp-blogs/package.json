@@ -1,0 +1,17 @@
+{
+  "name": "pp-blogs",
+  "version": "1.0.0",
+  "description": "Pocketpills blogs website",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "next dev --port 4201",
+      "build": "next build",
+      "lint": "eslint . --fix"
+  },
+  "devDependencies": {
+      "tsx": "^4.19.0"
+  },
+  "dependencies": {
+    "@shared": "workspace:*"
+  }
+}

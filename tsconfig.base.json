@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "allowJs": true,
+    "target": "es2015",
+    "esModuleInterop": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "strict": true,
+    "jsx": "preserve",
+    "module": "esnext",
+    "incremental": true,
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@shared/client": ["apps/shared/src/client.ts"],
+      "@shared/server": ["apps/shared/src/server.ts"],
+      "@shared/models": ["apps/shared/src/models.ts"],
+      "@shared/hooks": ["apps/shared/src/hooks.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

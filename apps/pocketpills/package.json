@@ -1,0 +1,23 @@
+{
+    "name": "pocketpills",
+    "version": "1.0.0",
+    "description": "Main pocketpills website",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "next dev --port 4200",
+        "build": "next build",
+        "start": "next start",
+        "lint": "eslint . --fix"
+    },
+    "devDependencies": {
+        "tsx": "^4.19.0"
+    },
+    "dependencies": {
+        "@shared": "workspace:*",
+        "@radix-ui/react-dialog": "^1.1.2",
+        "@radix-ui/react-tabs": "^1.1.1",
+        "class-variance-authority": "^0.7.0",
+        "clsx": "^2.1.1",
+        "tailwind-merge": "^2.5.4"
+    }
+}

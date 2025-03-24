@@ -1,0 +1,26 @@
+{
+  "name": "@shared",
+  "version": "1.0.0",
+  "description": "All shared components and utils",
+  "exports": {
+    "./": "./src/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "8.2.9",
+    "@storybook/addon-interactions": "^8.2.8",
+    "@storybook/core-server": "8.2.9",
+    "@storybook/nextjs": "8.2.9",
+    "@storybook/react": "^8.2.8",
+    "@storybook/react-vite": "^8.2.8",
+    "@storybook/test": "^8.2.9",
+    "@storybook/test-runner": "^0.13.0",
+    "storybook": "8.2.9"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "8.4.38"
+  }
+}

@@ -1,0 +1,7 @@
+# Sentry Config File
+.env.sentry-build-plugin
+
+# translation JSON files. Since they are generated at build time, we don't have to push them to git
+src/i18n/translations
+
+.env.dev
